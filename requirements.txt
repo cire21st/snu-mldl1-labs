@@ -1,2 +1,10 @@
-# Populate with the packages and versions used by the uploaded lab code.
-# No dependencies have been recorded yet.
+# Direct dependencies for the uploaded Lab 1 code.
+# Versions are unpinned: the original runtime versions were not recorded.
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# Local notebook interface
+notebook

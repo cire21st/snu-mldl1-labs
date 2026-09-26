@@ -1,25 +1,16 @@
-# Python
+# Python bytecode and virtual environments
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 
-# Jupyter
+# Jupyter checkpoint copies (keep the actual notebooks)
 .ipynb_checkpoints/
 
-# Local configuration
+# Local environment configuration
 .env
 .env.*
 !.env.example
-
-# Downloaded datasets and generated artifacts
-data/
-datasets/
-checkpoints/
-runs/
-*.pt
-*.pth
-*.ckpt
 
 # Operating system files
 .DS_Store

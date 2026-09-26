@@ -1,22 +1,35 @@
 # SNU MLDL I — Lab Archive
 
-Personal code-along archive of Labs 1–4 from **Machine Learning & Deep Learning I**, a Spring 2026 course taught by **Prof. Joonseok Lee** at the **Graduate School of Data Science, Seoul National University**.
+Personal code-along archive from **Machine Learning & Deep Learning I (Spring 2026)**, taught by **Prof. Joonseok Lee** at the **Graduate School of Data Science, Seoul National University**.
 
-The lab code was typed out by hand while following the lectures, as a record of independent study.
+The code was typed out by hand while following the lectures as a record of independent study.
 
 ## Course Resources
 
 - [Course Website](https://viplab.snu.ac.kr/viplab/courses/mldl1_2026_1/index.html) — syllabus and course materials
-- [YouTube Lectures](https://www.youtube.com/playlist?list=PL0E_1UqNACXCpyohL0_uMNaqr0QuXOMBi) — lectures available to watch on YouTube
+- [YouTube Lectures](https://www.youtube.com/playlist?list=PL0E_1UqNACXCpyohL0_uMNaqr0QuXOMBi) — watch the lectures online
 
 ## Labs
 
-| Lab | Topics |
-| --- | --- |
-| [01](lab01/) | Linear and logistic regression, feature selection, gradient descent, discriminant analysis, Naive Bayes |
-| [02](lab02/) | Regularization, decision trees, K-means clustering, PCA |
-| [03](lab03/) | CNNs with PyTorch, data augmentation, learning rate scheduling |
-| [04](lab04/) | Attention-based and Transformer-based machine translation, masked language modeling |
+| Lab | Topics | Archive status |
+| --- | --- | --- |
+| [01](lab01/) | NumPy and Pandas, linear regression, feature selection, logistic regression, LDA | Notebook and Python export uploaded |
+| [02](lab02/) | Regularization, decision trees, K-means, PCA | Code not yet uploaded |
+| [03](lab03/) | CNNs with PyTorch, data augmentation, learning rate scheduling | Code not yet uploaded |
+| [04](lab04/) | Attention, Transformers, masked language modeling | Code not yet uploaded |
+
+## Getting Started
+
+Start with the [Lab 1 guide](lab01/README.md) for the notebook, datasets, and execution instructions.
+
+For local use, create and activate a Python 3 virtual environment, then run from the repository root:
+
+```bash
+python -m pip install -r requirements.txt
+jupyter notebook lab01/MLDL_Lab1.ipynb
+```
+
+An internet connection is required to load the CSV datasets. The dependency list currently covers Lab 1 only; package versions have not been pinned or validated in a clean environment.
 
 ## Repository Structure
 
@@ -25,8 +38,11 @@ snu-mldl1-labs/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
+├── MLDL_Lab1.ipynb
 ├── lab01/
-│   └── README.md
+│   ├── README.md
+│   ├── MLDL_Lab1.ipynb
+│   └── mldl_lab1.py
 ├── lab02/
 │   └── README.md
 ├── lab03/
@@ -35,8 +51,8 @@ snu-mldl1-labs/
     └── README.md
 ```
 
-Each lab directory is reserved for its notebooks, scripts, and learning notes. The code has not yet been uploaded. Dependencies and run instructions will be documented alongside the code.
+The notebook in `lab01/` is the entry point linked by this guide. An additional copy exists at the repository root.
 
 ## Acknowledgments
 
-This repository is a personal study archive, not an official course repository. The original teaching materials and lab examples belong to their respective authors.
+This is a personal study archive, not an official course repository. Original teaching materials and lab examples belong to their respective authors.
