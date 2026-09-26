@@ -58,11 +58,6 @@ The script is a Colab export. Use the notebook for inline tables and plots; bare
 ## Implementation Notes
 
 - Train/test splits and cross-validation folds are randomized without a fixed seed in the current calls, so results may vary.
-- Exhaustive subset selection fits every non-empty feature combination and can take longer than the other sections.
-- Linear regression explicitly inverts `X.T @ X`, which assumes an invertible matrix.
-- The logistic regression target is encoded as `-1/1`, while the implemented sigmoid gradient uses the `0/1` target convention. These should be aligned before interpreting its accuracy.
-- Forward selection appends a candidate before checking whether it improves validation MSE, so the returned subset can include the final non-improving feature.
-- The LDA example uses a simplified scalar-variance score and reports accuracy on the same Iris samples used to estimate its parameters, rather than on a held-out test set.
 
 These notes describe the archived implementation. The code has not been changed as part of this documentation update, and the notebook has not been rerun in a clean environment.
 
