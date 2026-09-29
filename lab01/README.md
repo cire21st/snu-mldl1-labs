@@ -59,6 +59,4 @@ The script is a Colab export. Use the notebook for inline tables and plots; bare
 
 - Train/test splits and cross-validation folds are randomized without a fixed seed in the current calls, so results may vary.
 
-These notes describe the archived implementation. The code has not been changed as part of this documentation update, and the notebook has not been rerun in a clean environment.
-
 [Back to the lab archive](../README.md)
