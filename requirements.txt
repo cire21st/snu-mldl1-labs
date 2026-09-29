@@ -1,4 +1,4 @@
-# Direct dependencies for the uploaded Lab 1 code.
+# Direct dependencies for the uploaded Lab 1 and Lab 2 code.
 # Versions are unpinned: the original runtime versions were not recorded.
 numpy
 pandas

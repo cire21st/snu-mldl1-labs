@@ -14,22 +14,23 @@ The code was typed out by hand while following the lectures as a record of indep
 | Lab | Topics | Archive status |
 | --- | --- | --- |
 | [01](lab01/) | NumPy and Pandas, linear regression, feature selection, logistic regression, LDA | Notebook and Python export uploaded |
-| [02](lab02/) | Regularization, decision trees, K-means, PCA | Code not yet uploaded |
+| [02](lab02/) | Ridge and Lasso regression, decision trees, random forests, AdaBoost, hierarchical clustering, PCA | Notebook and Python export uploaded |
 | [03](lab03/) | CNNs with PyTorch, data augmentation, learning rate scheduling | Code not yet uploaded |
 | [04](lab04/) | Attention, Transformers, masked language modeling | Code not yet uploaded |
 
 ## Getting Started
 
-Start with the [Lab 1 guide](lab01/README.md) for the notebook, datasets, and execution instructions.
+See the [Lab 1 guide](lab01/README.md) and [Lab 2 guide](lab02/README.md) for notebook contents, datasets, and execution instructions.
 
 For local use, create and activate a Python 3 virtual environment, then run from the repository root:
 
 ```bash
 python -m pip install -r requirements.txt
 jupyter notebook lab01/MLDL_Lab1.ipynb
+# Or: jupyter notebook lab02/MLDL_Lab2.ipynb
 ```
 
-An internet connection is required to load the CSV datasets. The dependency list currently covers Lab 1 only; package versions have not been pinned or validated in a clean environment.
+An internet connection is required to load the CSV datasets. The dependency list covers the uploaded Labs 1 and 2; package versions have not been pinned or validated in a clean environment.
 
 ## Repository Structure
 
@@ -38,20 +39,19 @@ snu-mldl1-labs/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
-├── MLDL_Lab1.ipynb
 ├── lab01/
 │   ├── README.md
 │   ├── MLDL_Lab1.ipynb
 │   └── mldl_lab1.py
 ├── lab02/
-│   └── README.md
+│   ├── README.md
+│   ├── MLDL_Lab2.ipynb
+│   └── mldl_lab2.py
 ├── lab03/
 │   └── README.md
 └── lab04/
     └── README.md
 ```
-
-The notebook in `lab01/` is the entry point linked by this guide. An additional copy exists at the repository root.
 
 ## Acknowledgments
 
